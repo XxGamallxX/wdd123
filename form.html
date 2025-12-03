@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Review</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>TechNova Hub</h1>
+        <p>Your Technology Learning & Resource Center</p>
+    </header>
+
+    <!-- Main Form -->
+    <section class="container">
+        <h2 class="title">Product Review</h2>
+
+        <form>
+
+            <!-- Product Name -->
+            <div class="form-group">
+                <label>Product Name</label>
+                <select>
+                    <option>Choose a Product ...</option>
+                    <option>Product 1</option>
+                    <option>Product 2</option>
+                    <option>Product 3</option>
+                </select>
+            </div>
+
+            <!-- Rating -->
+            <div class="form-group">
+                <label>Overall Rating</label>
+                <div class="rating">
+                    <input type="radio" name="rate" id="r1"><label for="r1">★</label>
+                    <input type="radio" name="rate" id="r2"><label for="r2">★★</label>
+                    <input type="radio" name="rate" id="r3"><label for="r3">★★★</label>
+                    <input type="radio" name="rate" id="r4"><label for="r4">★★★★</label>
+                    <input type="radio" name="rate" id="r5"><label for="r5">★★★★★</label>
+                </div>
+            </div>
+
+            <!-- Date -->
+            <div class="form-group">
+                <label>Date of Installation</label>
+                <input type="date" />
+            </div>
+
+           <div class="form-group">
+    <label>Useful Features <span class="note">(Check all that apply)</span></label>
+
+    <div class="checkbox-group">
+        <label><input type="checkbox"> Durability</label>
+        <label><input type="checkbox"> Ease of Use</label>
+        <label><input type="checkbox"> Performance</label>
+        <label><input type="checkbox"> Design</label>
+    </div>
+</div>
+            <!-- Written Review -->
+            <div class="form-group">
+                <label>Written Review <span class="note">(Optional)</span></label>
+                <textarea rows="5"></textarea>
+            </div>
+
+            <!-- Name -->
+            <div class="form-group">
+                <label>Your Name <span class="note">(Optional)</span></label>
+                <input type="text" />
+            </div>
+
+            <!-- Button -->
+            <button type="submit">Post Review</button>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 TechNova Hub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
